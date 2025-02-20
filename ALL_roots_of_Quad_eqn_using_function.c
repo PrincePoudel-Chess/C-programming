@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<math.h>
-
 void f(float a,float b,float c){
 	float x1,x2;
-	
+
 	float del = b*b-4*a*c;
 	
 		if(del==0){
