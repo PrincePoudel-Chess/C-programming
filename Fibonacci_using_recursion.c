@@ -1,6 +1,4 @@
 
-////0 1 1 2 3 5 8.....
-
 
 #include<stdio.h>
 int fibo(int a,int b,int n){
@@ -11,10 +9,6 @@ int fibo(int a,int b,int n){
     a = temp;
     n = n-1;
     if(n>1){return fibo(a+b,b,n);}
-
-
-
-
 
 
 
