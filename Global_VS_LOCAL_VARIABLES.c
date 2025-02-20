@@ -1,7 +1,5 @@
-//program to demonstrate example of global and local scope
 
 #include<stdio.h>
-
 
 //We Define the Global Variable outside the functions
 //We Define the Local Variable inside the function
