@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main(){
 	int num,i;
 	FILE *file = fopen("data.dat","w");
@@ -12,7 +11,7 @@ int main(){
 		perror("Error");
 		return 1;
 	}
-	
+
 	while(fscanf(file,"%d",&num)!=EOF){
 		printf("%d",num);
 	}
