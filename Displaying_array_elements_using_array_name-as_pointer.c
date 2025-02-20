@@ -7,7 +7,6 @@ int main(){int i;
 		printf("%d ",*(arr+i));
 		printf("\n");
 	}
-	
-	
+
 }
 
