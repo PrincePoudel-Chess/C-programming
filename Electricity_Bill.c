@@ -1,7 +1,5 @@
-//Finding the electricity Bill
 
 #include<stdio.h>
-
 int main(){
     float units,cost;
     printf("Enter the units consumed:");
