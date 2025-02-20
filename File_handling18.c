@@ -1,14 +1,12 @@
 #include<stdio.h>
-
 struct customer{
 	char fname[50];
 	char lname[50];
 	long int accNum;
 	int balance;
 }person;
-
 int main(){
-	
+
 	int i;
 	FILE *fp = fopen("customer.dat","w");
 	if(fp == NULL){
@@ -17,7 +15,7 @@ int main(){
 	}
 		while(1){
 		
-		
+	
 		printf("fname:");
 		fgets(person.fname,50,stdin);
 		if(strcmp(person.fname,"stop\n")==0){
