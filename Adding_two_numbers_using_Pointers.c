@@ -3,7 +3,6 @@
 
 #include<stdio.h>
 
-
 int main(){
     int *a;
     int *b;
@@ -14,8 +13,6 @@ int main(){
     a = &m;
     b = &n;
     printf("The sum is:%d",*a+*b);
-
-
 
 
 
