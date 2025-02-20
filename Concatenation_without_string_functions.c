@@ -1,6 +1,4 @@
 #include<stdio.h>
-
-
 int main(){int m,n;
     char a[10] = "Prince";
     char b[10] = "Poudel";
